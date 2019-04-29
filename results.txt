@@ -7,23 +7,42 @@ Peter, Barker, DEVELOPER, 50000
 Sam, Sham, DEVELOPER, 35000
 Ellen, Musk, DEVELOPER, 38000
 
-RESULT:
+RESULT:1	Chuck	Jones	manger	100,000
+       2	Marty	Krofft	engineer	80,000
+       3	Peter	Baker	developer	50,000
+       4	Sam	Sham	developer	35,000
+       5	Ellen	Musk	developer	38,000
+
 
 SELECT all Employee records from the database
 
-RESULT:
+RESULT:3	Peter	Baker	developer	50,000
+       4	Sam	Sham	developer	35,000
+       5	Ellen	Musk	developer	38,000
+
 
 SELECT only the DEVELOPERS from the table
 
-RESULT:
+RESULT:2	Marty	Krofft	engineer	80,000
+       3	Peter	Baker	developer	50,000
+
 
 SELECT only the Employees making more than 50000
 
-RESULT:
+RESULT:1	Chuck	Jones	manger	100,000
+       2	Marty	Krofft	engineer	80,000
+       3	Peter	Baker	developer	50,000
+       4	Sam	Sham	developer	35,000
+       5	Ellen	Musk	developer	42,000
+
 
 UPDATE the salary for Ellen Musk and give a raise to 42000
 
-RESULT:
+RESULT:1	Chuck	Jones	manger	100,000
+       2	Marty	Krofft	engineer	80,000
+       3	Peter	Baker	developer	50,000
+       5	Ellen	Musk	developer	42,000
+
 
 DELETE Sam Sham
 
